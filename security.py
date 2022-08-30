@@ -58,7 +58,7 @@ def validating():
     step1 = get_license()
     step2 = dencrypted(step1)
     step3 = step2.split('.')
-    if get_word(step3) == dencrypted('gAAAAABicsujxOr21Bwh3Yygb8fMfFQwMb8DwKBCnJZjXFgk736KGB0gn5B1AbIi_57Q61oF1Zsb_MwiMbcHsNFHrJwMTP3jvQ=='):
+    if get_word(step3) == dencrypted('gAAAAABjDY_0dsP_D8RlkGjTk0u19Az8xoTT0Zhg_fdGWenNSx47vsL2KCto_nEybMIPQYA9hRBiyHpzX3wmvwLBx74CyxPoIg=='):
         current_date = datetime.now()
         license_date = datetime.strptime(get_date(step3), "%d/%m/%Y")
         return(current_date < license_date)
@@ -73,5 +73,3 @@ def get_date(list):
     for count, value in enumerate(list):
         if count == 1:
             return value
-
-
