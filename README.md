@@ -26,7 +26,7 @@
 <h3 align="center">App Security</h3>
 
   <p align="center">
-    Is a simple app to demostrate the funtions of key and license generate with app key_generator. We can security our apps with license.
+    Is a simple app to demostrate the funtions of key and license generate with app key_generator.
     <br />
     <a href="https://github.com/dani-ctes/app_security"><strong>Explore the docs »</strong></a>
     <br />
